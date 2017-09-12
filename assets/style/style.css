@@ -2,7 +2,15 @@
  
 body {
 background-color:#cef;
-  
+text-align: center;
+margin: auto;
+
+}
+
+.game {
+
+	font-size:36px;
+	color: #26558b;
 }
 
 h1 {
@@ -35,7 +43,7 @@ footer p {
 }
 
 
-  
+ 
 .score  {
 	font-size: 20px;
 	font-weight: bold;
