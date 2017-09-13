@@ -8,11 +8,15 @@ var game = {
     'baseball': 'yankees',
     'football': 'cowboys',
     'food': 'pizza',
+    'hockey': 'devils',
+    'basketball': 'knicks',
+    'soccer': 'redBull',
+
 }
 
 var corAns = 0;
 var incAns = 0;
-var unAns = 3;
+var unAns = 6;
 
 
 $('#myForm1 input').on('change', function() {
@@ -50,6 +54,38 @@ $('#myForm3 input').on('change', function() {
     }
 });
  
+$('#myForm4 input').on('change', function() {
+    if ($('input[name="devils"]:checked', '#myForm4').val() === game['hockey']) {
+        corAns = corAns + 1;
+        unAns = unAns - 1;
+    }
+    else if ($('input[name="devils"]:checked', '#myForm4').val() !== game['hockey']) {
+        incAns = incAns + 1;
+        unAns = unAns - 1;
+    }
+});
+
+$('#myForm5 input').on('change', function() {
+    if ($('input[name="knicks"]:checked', '#myForm5').val() === game['basketball']) {
+        corAns = corAns + 1;
+        unAns = unAns - 1;
+    }
+    else if ($('input[name="knicks"]:checked', '#myForm5').val() !== game['basketball']) {
+        incAns = incAns + 1;
+        unAns = unAns - 1;
+    }
+});
+
+$('#myForm6 input').on('change', function() {
+    if ($('input[name="redBull"]:checked', '#myForm6').val() === game['soccer']) {
+        corAns = corAns + 1;
+        unAns = unAns - 1;
+    }
+    else if ($('input[name="redBull"]:checked', '#myForm6').val() !== game['soccer']) {
+        incAns = incAns + 1;
+        unAns = unAns - 1;
+    }
+});
 
 var mins = 1;
 var secs = mins * 60;
