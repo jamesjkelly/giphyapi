@@ -1,4 +1,4 @@
-
+ 
  
 body {
 background-color:#cef;
@@ -6,7 +6,10 @@ text-align: center;
 margin: auto;
 
 }
-
+#done {
+	font-size: 2em;
+	font-weight: 600;
+}
 .game {
 
 	font-size:36px;
@@ -14,11 +17,12 @@ margin: auto;
 }
 
 h1 {
-  color: blue;
-  margin-top: 10px;
-font-size: 30px;
+font-family: 'Slackey', cursive;
+margin-top: 15px;
+font-size: 5em;
 letter-spacing: .15em;
-color: white;
+color: #26558b;
+font-weight: 500;
 
 }
 .jumbotron {
@@ -27,23 +31,11 @@ background: #cedbe9; /* Old browsers */
 background: -moz-linear-gradient(top, #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-
 }
 footer p {
   text-align: center;
 
 }
- .gem img
-{
-	width:200px;
-	height:200px;
-	border: 10px groove teal;
-	display: inline;
-}
-
-
- 
 .score  {
 	font-size: 20px;
 	font-weight: bold;
@@ -55,4 +47,10 @@ footer p {
 	background-color: tan;
 	padding:20px;
  
+}
+
+#main
+{
+	font-size: 	2em;
+	font-weight: 300
 }
