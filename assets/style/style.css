@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-<link href="https://fonts.googleapis.com/css?family= rel="stylesheet">
+ 
 
 h1
 {
-font-family: 'Roboto Slab';
+	font-family: 'Roboto Slab', serif;
+	font-size: 	4em;
+	
 }
 body 
 {
 	font-size: 	2em;
 	font-weight: 300;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', san-serif;
 		
 		
 }
