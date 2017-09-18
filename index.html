@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
    <head>
       <title> sports giphy api</title>
@@ -13,34 +13,27 @@
       
       <div class="jumbotron">
              <h1   >james kelly's giphy api</h1>
+             
+
+
+            <form  >
+  <div class="form-group">
+    <label for="sportsInput">Search for Giphys</label>
+    <input type="text" id="sportsInput">
+  </div>
+   <input id="addSports" type="submit" value="submit" style='width:100px'>
+ </form>
+
          </div>
          
-         <div class="row">
-            <div class="col-md-12"  > 
-            <form  ><label  >Search for more sports giphys</label>
-            <input type="text" id="sportsInput">
-            <input type="submit" value="submit"  class="btn btn-secondary" >
-            </form>
-
-            </div>
-         </div>
-         <div class="row"  >
-            <div class="col-md-12">
-               <button  type="button"  class="btn btn-secondary sport"  data-search="baseball">baseball</button>
-               <button  type="button"    class="btn btn-secondary sport"    id="show" data-search="football">football</button>
-               <button  type="button"   class="btn btn-secondary sport"   data-search="basketball">basketball</button>
-               <button  type="button"   class="btn btn-secondary sport"   data-search="golf">golf</button>
-              
-
- 
-   
+          <div class="row"  >
+        <div class="col-md-12" id='myButtons'>      
          </div>
       </div>
-
-<div class="row">
+      <div class="row">
         <div id="displayGify"  ></div> 
-  </div>  
- 
+       </div>  
+
       <div id="footer">
          <div class="container text-center">
             <p > &copy; James J Kelly 2017</p>
@@ -52,9 +45,7 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
- 
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script type="text/javascript" src="./assets/javascript/giphy.js"></script>
    
