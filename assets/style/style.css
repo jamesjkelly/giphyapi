@@ -2,17 +2,40 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
  
 
+.jumbotron
+
+{
+	background-color: hsla(0, 100%, 30%, 0.3);;
+}
+
 h1
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 	4em;
+	font-size: 	2.2em;
 	
 }
 body 
 {
-	font-size: 	2em;
+	font-size: 	1.2em;
 	font-weight: 300;
-        font-family: 'Open Sans', san-serif;
-		
-		
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin:auto;		
+	background-color: hsla(0, 70%, 20%, 0.2);;
+ 		
 }
+
+
+button
+
+{
+	margin: 40px;
+	width: 150px; 	
+}
+ 
+
+ .displayGify
+ {
+ 	width:33%;
+ 	float:left;
+ }
